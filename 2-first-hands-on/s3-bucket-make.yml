@@ -1,0 +1,8 @@
+---
+Resources:
+  MyS3Bucket:
+    Type: "AWS::S3::Bucket"
+    Properties: 
+      AccessControl: PublicRead
+      BucketName : "udemy-cf-class-bucket-nath92"
+    # Empty properties creates a bucket with a random name
